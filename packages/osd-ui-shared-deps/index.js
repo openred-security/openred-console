@@ -68,8 +68,8 @@ exports.externals = {
   '@elastic/eui/lib/services': '__osdSharedDeps__.ElasticEuiLibServices',
   '@elastic/eui/lib/services/format': '__osdSharedDeps__.ElasticEuiLibServicesFormat',
   '@elastic/eui/dist/eui_charts_theme': '__osdSharedDeps__.ElasticEuiChartsTheme',
-  '@elastic/eui/dist/eui_theme_light.json': '__osdSharedDeps__.Theme.euiLightVars',
-  '@elastic/eui/dist/eui_theme_dark.json': '__osdSharedDeps__.Theme.euiDarkVars',
+  '@elastic/eui/dist/eui_theme_openred_light.json': '__osdSharedDeps__.Theme.euiLightVars',
+  '@elastic/eui/dist/eui_theme_openred_dark.json': '__osdSharedDeps__.Theme.euiDarkVars',
   lodash: '__osdSharedDeps__.Lodash',
   'lodash/fp': '__osdSharedDeps__.LodashFp',
 

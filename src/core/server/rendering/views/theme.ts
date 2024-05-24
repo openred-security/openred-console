@@ -14,13 +14,9 @@ export const THEME_SOURCES: {
     [key in ThemeColorSchemes]: string;
   };
 } = deepFreeze({
-  v7: {
-    [ThemeColorSchemes.LIGHT]: '@elastic/eui/dist/eui_theme_light.json',
-    [ThemeColorSchemes.DARK]: '@elastic/eui/dist/eui_theme_dark.json',
-  },
   default: {
-    [ThemeColorSchemes.LIGHT]: '@elastic/eui/dist/eui_theme_next_light.json',
-    [ThemeColorSchemes.DARK]: '@elastic/eui/dist/eui_theme_next_dark.json',
+    [ThemeColorSchemes.LIGHT]: '@elastic/eui/dist/eui_theme_openred_light.json',
+    [ThemeColorSchemes.DARK]: '@elastic/eui/dist/eui_theme_openred_dark.json',
   },
 });
 

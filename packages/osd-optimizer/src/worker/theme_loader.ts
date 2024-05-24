@@ -32,7 +32,7 @@ import { stringifyRequest, getOptions } from 'loader-utils';
 import webpack from 'webpack';
 import { parseThemeTags, ALL_THEMES, ThemeTag } from '../common';
 
-const getVersion = (tag: ThemeTag) => (tag.includes('v7') ? 7 : 8);
+const getVersion = (tag: ThemeTag) => 'openred';
 const getIsDark = (tag: ThemeTag) => tag.includes('dark');
 const compare = (a: ThemeTag, b: ThemeTag) =>
   (getVersion(a) === getVersion(b) ? 1 : 0) + (getIsDark(a) === getIsDark(b) ? 1 : 0);
