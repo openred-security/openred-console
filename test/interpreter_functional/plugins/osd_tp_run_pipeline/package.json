@@ -12,7 +12,7 @@
     "build": "../../../../scripts/use_node ../../../../scripts/remove.js './target' && tsc"
   },
   "devDependencies": {
-    "@elastic/eui": "file:/Users/opensearch-project-oui-2.0.4.tgz",
+    "@elastic/eui": "npm:@openred-security/orui",
     "@osd/plugin-helpers": "1.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.12.0",
